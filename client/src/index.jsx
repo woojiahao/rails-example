@@ -12,8 +12,8 @@ const call = () => {
 const Index = () => {
   return (
     <div>
-      <p>Hello world</p>
-      <button onClick={call()}></button>
+      <p>Call the API</p>
+      <button onClick={call}>Press Me!</button>
     </div>
   )
 }
