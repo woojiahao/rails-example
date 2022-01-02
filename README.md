@@ -17,6 +17,22 @@ cd rails-example
 docker-compose up --build
 ```
 
+To run each component individually, use the following commands:
+
+1. API
+
+    ```bash
+    cd api
+    rails server -p 8083
+    ```
+
+2. Client
+
+    ```bash
+    cd client
+    npm start
+    ```
+
 ## Explaining Architecture
 
 This example uses a basic client-server architecture. The client (React) is what the user interacts with. We use Webpack
