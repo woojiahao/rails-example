@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  client:
+    build: "./client/"
+    ports:
+      - "8080:8080"
+    network_mode: "host"
+
+  api:
+    build: "./api/"
+    ports:
+      - "8083:8083"
+    network_mode: "host"
